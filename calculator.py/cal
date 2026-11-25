@@ -25,6 +25,11 @@ elif choice == "4":
         print("Result:", a / b)
     else:
         print("Cannot divide by zero")
+        import math
+
+num = float(input("Enter a number: "))
+
+print("Square root:", math.sqrt(num))
 
 else:
     print("Invalid choice")
